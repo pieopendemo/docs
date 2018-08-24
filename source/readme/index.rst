@@ -10,15 +10,10 @@ Node.js Demo
 
 说明：
 
-1、提供的 Demo 用于测试环境。
+1、提供的 Demo 仅用于测试环境。
 
-2、下载地址：
+2、项目地址： https://github.com/pieopendemo/pieopen
 
-3、测试顺序：
-
-通过比特派注册 PIEOPEN key  -  开启 Node.js Demo  - 打开网址 － 点击登录 － 通过比特派 app 扫一扫  － 待登录按钮变成已登录之后点击获取用户信息 － 输入amount,coin_code 点击获取支付二维码 － 通过比特派二维码支付 - 支付成功之后 - 点击获取订单信息。
-
-唤起测试 点击
 
 
 
