@@ -18,6 +18,8 @@
 
 3、需要在 HTTP 的请求头中设置 "open-access-token" 键值对。
 
+4、参数 amount，举例说明：比如我要支付 1 BTC，amount 的值为 1*1e8，其它数量或币种以此类推。
+
 
 
 

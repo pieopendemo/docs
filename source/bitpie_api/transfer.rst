@@ -10,9 +10,6 @@
     :align: center
 
 
-说明：
-
-通过用户登录 API 登录，登录之后通过获取用户信息 API 获取 token。
 
 
 转账
