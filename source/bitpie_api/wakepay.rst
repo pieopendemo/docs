@@ -18,10 +18,8 @@
 
 3、唤起比特派进行支付，支付之后调用 API 来判断订单状态。
 
+4、支付的币数必须先充进比特派的派银行。
 
-
-唤起比特派 Bitpie 登录
------------------------------------
 
       ** API **
          * ``url`` *bitpie://piebank/pay?order_id={transfer_id}&amount={amount}&coin_code={coin_code}&app_name={app_name}*

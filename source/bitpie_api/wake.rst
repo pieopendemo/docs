@@ -19,11 +19,6 @@
 3、唤起比特派之后，通过调用 API 获取用户信息。
 
 
-
-
-唤起比特派 Bitpie 登录
------------------------------------
-
       ** API **
          * ``url`` *bitpie://piebank/login?app_name={token_planets}&app_key={hkey}*
 
