@@ -4,7 +4,7 @@ PIEOPEN API
 
 欢迎使用比特派开放平台！
 
-PIEOPEN API 请求主机地址: https://pieopen.getcai.com  文档中的请求 API 都需要加上这个主机地址。
+PIEOPEN API 请求主机地址: https://pieopen.getcai.com
 
 Node.js Demo
 -------------------
