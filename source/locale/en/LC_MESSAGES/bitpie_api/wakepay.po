@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/bitpie_api/wakepay.rst:2
+msgid "比特派 APP 唤起支付"
+msgstr "Bitpie APP Arouse to pay"
+
+#: ../../source/bitpie_api/wakepay.rst:4
+msgid "比特派唤起流程图"
+msgstr "Flow of calling Bitpie"
+
+#: ../../source/bitpie_api/wakepay.rst:13
+msgid "说明："
+msgstr "Description:"
+
+#: ../../source/bitpie_api/wakepay.rst:15
+msgid "1、通过调用 API 获取支付二维码。"
+msgstr "1.Get the payment QR code by calling the API"
+
+#: ../../source/bitpie_api/wakepay.rst:17
+msgid "2、判断是否安装比特派。"
+msgstr "2.Determine whether Bitpie is installed"
+
+#: ../../source/bitpie_api/wakepay.rst:19
+msgid "3、唤起比特派进行支付，支付之后调用 API 来判断订单状态。"
+msgstr "3.Call Bitpie to pay, then determine the order status by API"
+
+#: ../../source/bitpie_api/wakepay.rst:21
+msgid "4、支付的币数必须先充进比特派的派银行。"
+msgstr "4.The amount of coins to be paid must be first deposited in Bitpie bank"
+
+#: ../../source/bitpie_api/wakepay.rst:26
+msgid "** API **"
+msgstr ""
+
+#: ../../source/bitpie_api/wakepay.rst:25
+msgid ""
+"``url`` "
+"*bitpie://piebank/pay?order_id={transfer_id}&amount={amount}&coin_code={coin_code}&app_name={app_name}*"
+msgstr ""
+
+#: ../../source/bitpie_api/wakepay.rst:32
+msgid "** 参数 **"
+msgstr "** Parameters **"
+
+#: ../../source/bitpie_api/wakepay.rst:29
+msgid "``transfer_id`` *订单号*"
+msgstr "``transfer_id`` *transfer_id*"
+
+#: ../../source/bitpie_api/wakepay.rst:30
+msgid "``amount`` *支付币数*"
+msgstr "``amount`` *amount of payment*"
+
+#: ../../source/bitpie_api/wakepay.rst:31
+msgid "``coin_code`` *币种代码*"
+msgstr "``coin_code`` *coin code*"
+
+#: ../../source/bitpie_api/wakepay.rst:32
+msgid "``app_name`` *应用名称*"
+msgstr "``app_name``  *name of application*"
+
+#: ../../source/bitpie_api/wakepay.rst:34
+msgid "** 回值 **"
+msgstr "**return value**"
+

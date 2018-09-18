@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/bitpie_api/pay.rst:2
+msgid "比特派 APP 支付"
+msgstr "Bitpie payment"
+
+#: ../../source/bitpie_api/pay.rst:4
+msgid "比特派 APP 支付流程图"
+msgstr "Bitpie payment flow chart"
+
+#: ../../source/bitpie_api/pay.rst:13 ../../source/bitpie_api/pay.rst:93
+msgid "说明："
+msgstr "Description:"
+
+#: ../../source/bitpie_api/pay.rst:15
+msgid "1、通过用户登录 API 登录。"
+msgstr "1.Login via the user login API."
+
+#: ../../source/bitpie_api/pay.rst:17
+msgid "2、获取用户信息（最重要的是 token ）。"
+msgstr "2.Get user information (token is the most important)."
+
+#: ../../source/bitpie_api/pay.rst:19
+msgid "3、需要在 HTTP 的请求头中设置 \"open-access-token\" 键值对。"
+msgstr "3.Need to set the \"open-access-token\" value pair in the HTTP request setting."
+
+#: ../../source/bitpie_api/pay.rst:21
+msgid "4、参数 amount，举例说明：比如我要支付 1 BTC，amount 的值为 1*1e8，其它数量或币种以此类推。"
+msgstr "4.Parameter amount. For example, I have to pay 1 BTC, the value of amount is 1*1e8, and so on for other amount or currency."
+
+#: ../../source/bitpie_api/pay.rst:23
+msgid "5、支付的币数必须先充进比特派的派银行。"
+msgstr "5.The payment coins must be deposited in Bitpie bank first."
+
+#: ../../source/bitpie_api/pay.rst:29
+msgid "获取支付二维码"
+msgstr "Get the payment QR code"
+
+#: ../../source/bitpie_api/pay.rst:34
+msgid "**请求 API **:"
+msgstr "**Request API **:"
+
+#: ../../source/bitpie_api/pay.rst:32
+msgid "``url`` */api/v1/open/third/party/{coin_code}/pay/qr/create*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:33 ../../source/bitpie_api/pay.rst:145
+msgid "``method`` *POST*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:34 ../../source/bitpie_api/pay.rst:67
+#: ../../source/bitpie_api/pay.rst:146
+msgid "``content-type`` *application/json*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:37 ../../source/bitpie_api/pay.rst:70
+msgid "** header **:"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:37
+msgid "``open-access-token`` *token* *登录之后通过获取用户信息 API 获取*"
+msgstr "``open-access-token`` *token*  *get the token by logging in user information API*"
+
+#: ../../source/bitpie_api/pay.rst:43 ../../source/bitpie_api/pay.rst:75
+#: ../../source/bitpie_api/pay.rst:157
+msgid "** 参数 **:"
+msgstr "** Parameters **:"
+
+#: ../../source/bitpie_api/pay.rst:40
+msgid "``appkey`` *(String)* -参数类型, *(App 标识)*"
+msgstr "``appkey`` *(String)* -type of parameter, *(appkey)*"
+
+#: ../../source/bitpie_api/pay.rst:41 ../../source/bitpie_api/pay.rst:74
+#: ../../source/bitpie_api/pay.rst:78 ../../source/bitpie_api/pay.rst:149
+msgid "``transfer_id`` *(String)* -参数类型, *订单号*"
+msgstr "``transfer_id`` *(String)* -type of parameter, *transfer ID*"
+
+#: ../../source/bitpie_api/pay.rst:42
+msgid "``amount`` *(String)* - 参数类型, *金额*"
+msgstr "``amount`` *(String)* - type of parameter, *amount*"
+
+#: ../../source/bitpie_api/pay.rst:49
+msgid "** 返回值 **:"
+msgstr "** Return value **"
+
+#: ../../source/bitpie_api/pay.rst:46
+msgid "``time`` *时间戳*"
+msgstr "``time`` *timestamp*"
+
+#: ../../source/bitpie_api/pay.rst:47
+msgid "``qr_info``"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:48
+msgid "``qr_url``"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:51 ../../source/bitpie_api/pay.rst:81
+msgid "** 返回值举例 **::"
+msgstr "** example of return value **::"
+
+#: ../../source/bitpie_api/pay.rst:61
+msgid "获取支付二维码状态"
+msgstr "Get the payment QR code status"
+
+#: ../../source/bitpie_api/pay.rst:67 ../../source/bitpie_api/pay.rst:146
+msgid "** 请求 API **:"
+msgstr "** Request API **:"
+
+#: ../../source/bitpie_api/pay.rst:65
+msgid "``url`` */api/v1/open/third/party/pay/qr/query*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:66
+msgid "``method`` *GET*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:70
+msgid "``open-access-token``  *token* *登录之后通过获取用户信息 API 获取*"
+msgstr "``open-access-token`` *token* *get the token by logging in user information API*"
+
+#: ../../source/bitpie_api/pay.rst:73
+msgid "``appkey`` *(String)* - 参数类型, *(App 标识)*"
+msgstr "``appkey`` *(String)* - type of parameter, *(appkey)*"
+
+#: ../../source/bitpie_api/pay.rst:79 ../../source/bitpie_api/pay.rst:159
+msgid "** 返回值 **"
+msgstr "** Return value **"
+
+#: ../../source/bitpie_api/pay.rst:79
+msgid "``status`` *订单状态值  0初始化   1扫描支付   2支付成功  3支付超时*"
+msgstr "``status`` *order status   0 initialization   1 Scan to pay     2 payment succussful    3 payment timeout*"
+
+#: ../../source/bitpie_api/pay.rst:91
+msgid "比特派 Bitpie 支付成功回调"
+msgstr "Bitpie payment success callback"
+
+#: ../../source/bitpie_api/pay.rst:95
+msgid "支付成功回调名称是 PIEOPEN KEY 注册时填写的名称，此 API 由接入提供。由开放平台调用。"
+msgstr "The payment success callback name is the name that was filled in when PIEOPEN KEY was registered. This API is provided by the access and called by the open platform."
+
+#: ../../source/bitpie_api/pay.rst:97
+msgid "支付成功回调验证签名算法规则："
+msgstr "Payment success callback verification signature algorithm rules:"
+
+#: ../../source/bitpie_api/pay.rst:99
+msgid "1、参数 message、签名不参。"
+msgstr "1.The parameter message and signature are not included."
+
+#: ../../source/bitpie_api/pay.rst:101
+msgid "2、参数名ASCII码从小到大排序（字典序）。"
+msgstr "2.The parameter name ASCII code is sorted from small to large (Alphabetical order)."
+
+#: ../../source/bitpie_api/pay.rst:103
+msgid "3、如果参数的值为空不参与签名。"
+msgstr "3.If the value of the parameter is null, it does not participate the signature."
+
+#: ../../source/bitpie_api/pay.rst:105
+msgid "4、参数名区分大小写。"
+msgstr "4.Parameter names are case sensitive."
+
+#: ../../source/bitpie_api/pay.rst:107
+msgid "5、汉字为utf8编码。"
+msgstr "5.Chinese characters are utf8 coded."
+
+#: ../../source/bitpie_api/pay.rst:109
+msgid "6、最后加入secretkey，参数名为 key ，secretKey是与Bitpie约定生成。"
+msgstr "6.Add secretkey. The parameter name is key, and secretKey is generated by binding with Bitpie."
+
+#: ../../source/bitpie_api/pay.rst:111
+msgid "7、使用 SHA256 算法生成32位字符串。"
+msgstr "7.Generate a 32-bit string using the SHA256 algorithm."
+
+#: ../../source/bitpie_api/pay.rst:113
+msgid "Node.js:"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:139
+msgid "每次交易和回调，双方都需要验证签名来保证交易的安全性。如果签名验证失败表明即表明本次交易失败。"
+msgstr "For each transaction and callback, both parties need to verify the signature to ensure the security of the transaction. If the signature verification fails, it indicates that the transaction failed."
+
+#: ../../source/bitpie_api/pay.rst:144
+msgid "``url`` */api/pay/callback*"
+msgstr ""
+
+#: ../../source/bitpie_api/pay.rst:150
+msgid "``nonce_string`` *(String)* -参数类型, *签名验证随机值*"
+msgstr "``nonce_string`` *(String)* -type of parameter, *ramdom value of signature verfication*"
+
+#: ../../source/bitpie_api/pay.rst:151
+msgid "``sign_string`` *(String)* -参数类型, *签名验证随机值*"
+msgstr "``sign_string`` *(String)* -type of parameter, *random value of signature verification*
+"
+
+#: ../../source/bitpie_api/pay.rst:152
+msgid "``amount`` *(String)* -参数类型, *币数*"
+msgstr "``amount`` *(String)* -type of parameter, *amount*"
+
+#: ../../source/bitpie_api/pay.rst:153
+msgid "``coin_code`` *(String)* -参数类型, *币种代码,例 BTC*"
+msgstr "``coin_code`` *(String)* -type of parameter, *coin code,e.g.BTC*"
+
+#: ../../source/bitpie_api/pay.rst:154
+msgid "``user_asset_flow_id`` *(String)* -参数类型, *比特派 Bitpie 交易流水号*"
+msgstr "``user_asset_flow_id`` *(String)* -type of parameter, *Bitpie transaction ID*"
+
+#: ../../source/bitpie_api/pay.rst:155
+msgid "``balance`` *(String)* -参数类型, *[true|false] 默认 true*"
+msgstr "``balance`` *(String)* -type of parameter, *[true|false] default true*"
+
+#: ../../source/bitpie_api/pay.rst:156
+msgid "``timestamp`` *(String)* -参数类型, *交易时间,毫秒级时间戳,没有小数点,纯数字*"
+msgstr "``timestamp`` *(String)* -type of parameter, *transaction time,Timestamp in milliseconds, no decimal places, pure number*"
+
+#: ../../source/bitpie_api/pay.rst:160
+msgid "``result`` *(String)* -参数类型, *[true|false]*"
+msgstr "``result`` *(String)* -type of parameter, *[true|false]*"
+

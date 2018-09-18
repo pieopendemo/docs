@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/readme/index.rst:3
+msgid "PIEOPEN API"
+msgstr ""
+
+#: ../../source/readme/index.rst:5
+msgid "欢迎使用比特派开放平台！"
+msgstr "Welcome to the Bitpie open platform!"
+
+#: ../../source/readme/index.rst:7
+msgid "PIEOPEN API 请求主机地址: https://pieopen.getcai.com"
+msgstr "PIEOPEN API request host address: https://pieopen.getcai.com"
+
+#: ../../source/readme/index.rst:10
+msgid "Node.js Demo"
+msgstr ""
+
+#: ../../source/readme/index.rst:12
+msgid "说明："
+msgstr "Description:"
+
+#: ../../source/readme/index.rst:14
+msgid "1、提供的 Demo 仅用于测试环境。"
+msgstr "1.The Demo provided is for testing only"
+
+#: ../../source/readme/index.rst:16
+msgid "2、项目地址： https://github.com/pieopendemo/pieopen"
+msgstr "2.Project address: https://github.com/pieopendemo/pieopen"
+
+#: ../../source/readme/index.rst:24
+msgid "返回错误代码列表"
+msgstr "List of return error code"
+
+#: ../../source/readme/index.rst:29
+msgid "代码"
+msgstr "Code"
+
+#: ../../source/readme/index.rst:29
+msgid "错误原因"
+msgstr "Error Reason"
+
+#: ../../source/readme/index.rst:31
+msgid "12101"
+msgstr ""
+
+#: ../../source/readme/index.rst:31 ../../source/readme/index.rst:34
+#: ../../source/readme/index.rst:38 ../../source/readme/index.rst:48
+msgid "二维码失效"
+msgstr "Invalid QR Code"
+
+#: ../../source/readme/index.rst:32
+msgid "12102"
+msgstr ""
+
+#: ../../source/readme/index.rst:32 ../../source/readme/index.rst:33
+#: ../../source/readme/index.rst:37 ../../source/readme/index.rst:41
+#: ../../source/readme/index.rst:47
+msgid "签名错误"
+msgstr "Signature Error"
+
+#: ../../source/readme/index.rst:33
+msgid "12103"
+msgstr ""
+
+#: ../../source/readme/index.rst:34
+msgid "12104"
+msgstr ""
+
+#: ../../source/readme/index.rst:35
+msgid "12200"
+msgstr ""
+
+#: ../../source/readme/index.rst:35
+msgid "余额不足"
+msgstr "Insufficient Balance"
+
+#: ../../source/readme/index.rst:36
+msgid "12201"
+msgstr ""
+
+#: ../../source/readme/index.rst:36
+msgid "未找到二维码"
+msgstr "QR Code Not Found"
+
+#: ../../source/readme/index.rst:37
+msgid "12202"
+msgstr ""
+
+#: ../../source/readme/index.rst:38
+msgid "12203"
+msgstr ""
+
+#: ../../source/readme/index.rst:39
+msgid "12204"
+msgstr ""
+
+#: ../../source/readme/index.rst:39
+msgid "二维码已签名"
+msgstr "Signed QR code"
+
+#: ../../source/readme/index.rst:40
+msgid "12205"
+msgstr ""
+
+#: ../../source/readme/index.rst:40
+msgid "不支持代付"
+msgstr "Not support payment on behalf of others"
+
+#: ../../source/readme/index.rst:41
+msgid "12207"
+msgstr ""
+
+#: ../../source/readme/index.rst:42
+msgid "12208"
+msgstr ""
+
+#: ../../source/readme/index.rst:42
+msgid "重复支付"
+msgstr ""
+
+#: ../../source/readme/index.rst:43
+msgid "12209"
+msgstr ""
+
+#: ../../source/readme/index.rst:43
+msgid "不能转账给自己"
+msgstr "Repeated Payment"
+
+#: ../../source/readme/index.rst:44
+msgid "12210"
+msgstr ""
+
+#: ../../source/readme/index.rst:44
+msgid "服务不可用"
+msgstr "Service not available"
+
+#: ../../source/readme/index.rst:45
+msgid "12301"
+msgstr ""
+
+#: ../../source/readme/index.rst:45
+msgid "Appkey不存在"
+msgstr "Appkey does not exist"
+
+#: ../../source/readme/index.rst:46
+msgid "12401"
+msgstr ""
+
+#: ../../source/readme/index.rst:46
+msgid "HKey不存在"
+msgstr "HKey does not exist"
+
+#: ../../source/readme/index.rst:47
+msgid "12402"
+msgstr ""
+
+#: ../../source/readme/index.rst:48
+msgid "12403"
+msgstr ""
+
+#: ../../source/readme/index.rst:49
+msgid "12404"
+msgstr ""
+
+#: ../../source/readme/index.rst:49
+msgid "非法的参数"
+msgstr "Illegal parameters"
+
+#: ../../source/readme/index.rst:56
+msgid "开放平台支持币种"
+msgstr "Coins the open platform supports"
+
+#: ../../source/readme/index.rst:61
+msgid "币种代码（coin_code）"
+msgstr "Coin code"
+
+#: ../../source/readme/index.rst:61
+msgid "精度"
+msgstr "Precision"
+
+#: ../../source/readme/index.rst:63
+msgid "BTC"
+msgstr ""
+
+#: ../../source/readme/index.rst:63 ../../source/readme/index.rst:64
+#: ../../source/readme/index.rst:65 ../../source/readme/index.rst:66
+#: ../../source/readme/index.rst:67 ../../source/readme/index.rst:70
+#: ../../source/readme/index.rst:71 ../../source/readme/index.rst:76
+#: ../../source/readme/index.rst:77 ../../source/readme/index.rst:78
+#: ../../source/readme/index.rst:79 ../../source/readme/index.rst:80
+#: ../../source/readme/index.rst:81
+msgid "1e8"
+msgstr ""
+
+#: ../../source/readme/index.rst:64
+msgid "BCH(BCC)"
+msgstr ""
+
+#: ../../source/readme/index.rst:65
+msgid "BTG"
+msgstr ""
+
+#: ../../source/readme/index.rst:66
+msgid "BTN"
+msgstr ""
+
+#: ../../source/readme/index.rst:67
+msgid "BTF"
+msgstr ""
+
+#: ../../source/readme/index.rst:68
+msgid "BTP"
+msgstr ""
+
+#: ../../source/readme/index.rst:68 ../../source/readme/index.rst:72
+#: ../../source/readme/index.rst:73
+msgid "1e7"
+msgstr ""
+
+#: ../../source/readme/index.rst:69
+msgid "BTW"
+msgstr ""
+
+#: ../../source/readme/index.rst:69 ../../source/readme/index.rst:74
+msgid "1e4"
+msgstr ""
+
+#: ../../source/readme/index.rst:70
+msgid "BTV"
+msgstr ""
+
+#: ../../source/readme/index.rst:71
+msgid "SBTC"
+msgstr ""
+
+#: ../../source/readme/index.rst:72
+msgid "BCD"
+msgstr ""
+
+#: ../../source/readme/index.rst:73
+msgid "BBC"
+msgstr ""
+
+#: ../../source/readme/index.rst:74
+msgid "BCX"
+msgstr ""
+
+#: ../../source/readme/index.rst:75
+msgid "CDY"
+msgstr ""
+
+#: ../../source/readme/index.rst:75
+msgid "1e5"
+msgstr ""
+
+#: ../../source/readme/index.rst:76
+msgid "DASH"
+msgstr ""
+
+#: ../../source/readme/index.rst:77
+msgid "DOGE"
+msgstr ""
+
+#: ../../source/readme/index.rst:78
+msgid "SAFE"
+msgstr ""
+
+#: ../../source/readme/index.rst:79
+msgid "LTC"
+msgstr ""
+
+#: ../../source/readme/index.rst:80
+msgid "LCH"
+msgstr ""
+
+#: ../../source/readme/index.rst:81
+msgid "USDT-OMNI"
+msgstr ""
+
+#: ../../source/readme/index.rst:82
+msgid "ETH"
+msgstr ""
+
+#: ../../source/readme/index.rst:82 ../../source/readme/index.rst:83
+#: ../../source/readme/index.rst:84 ../../source/readme/index.rst:86
+#: ../../source/readme/index.rst:87
+msgid "1e18"
+msgstr ""
+
+#: ../../source/readme/index.rst:83
+msgid "ETH-POK"
+msgstr ""
+
+#: ../../source/readme/index.rst:84
+msgid "ETH-SCNY"
+msgstr ""
+
+#: ../../source/readme/index.rst:85
+msgid "ETH-USDT"
+msgstr ""
+
+#: ../../source/readme/index.rst:85
+msgid "1e6"
+msgstr ""
+
+#: ../../source/readme/index.rst:86
+msgid "ETH-ELF"
+msgstr ""
+
+#: ../../source/readme/index.rst:87
+msgid "ETC"
+msgstr ""
+
+#: ../../source/readme/index.rst:91
+msgid "说明：如果是转账或者支付 BCH ，请把 BCH 转换成 BCC。"
+msgstr "Note: If you are transferring or paying BCH, please convert BCH to BCC."
+

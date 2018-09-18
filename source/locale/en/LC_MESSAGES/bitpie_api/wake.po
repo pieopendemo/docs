@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/bitpie_api/wake.rst:2
+msgid "比特派 APP 唤起"
+msgstr "Bitpie APP Arouse"
+
+#: ../../source/bitpie_api/wake.rst:4
+msgid "比特派唤起流程图"
+msgstr "Flow of Bitpie arouse"
+
+#: ../../source/bitpie_api/wake.rst:13
+msgid "说明："
+msgstr "Description:"
+
+#: ../../source/bitpie_api/wake.rst:15
+msgid "1、比特派唤起前，先调用 API 登录。"
+msgstr "1.API login before the Bitpie is aroused."
+
+#: ../../source/bitpie_api/wake.rst:17
+msgid "2、判断是否安装比特派。"
+msgstr "2.Determine whether Bitpie is installed?"
+
+#: ../../source/bitpie_api/wake.rst:19
+msgid "3、唤起比特派之后，通过调用 API 获取用户信息。"
+msgstr "3.After calling Bitpie, get the user information by calling the API."
+
+#: ../../source/bitpie_api/wake.rst:24
+msgid "** API **"
+msgstr ""
+
+#: ../../source/bitpie_api/wake.rst:23
+msgid "``url`` *bitpie://piebank/login?app_name={token_planets}&app_key={hkey}*"
+msgstr ""
+
+#: ../../source/bitpie_api/wake.rst:28
+msgid "** 参数 **"
+msgstr "** Parameters **"
+
+#: ../../source/bitpie_api/wake.rst:27
+msgid "``token_planets``"
+msgstr ""
+
+#: ../../source/bitpie_api/wake.rst:28
+msgid "``hkey`` *QR标识*"
+msgstr "app_key (String) -type of parameter "
+
+#: ../../source/bitpie_api/wake.rst:30
+msgid "** 回值 **"
+msgstr "** example of return value**"
+

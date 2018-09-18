@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/registered/index.rst:3
+msgid "PIEOPEN KEY 注册"
+msgstr "PIEOPEN KEY Registration"
+
+#: ../../source/registered/index.rst:5
+msgid "1.比特派版本大于 3.5.1 。"
+msgstr "1.The Bitpie Wallet APP version is greater than 3.5.1."
+
+#: ../../source/registered/index.rst:7
+msgid ""
+"2.打开比特派 APP 我的菜单，选择 PIEOPEN Key，选择右上解 "
+"\"+\"，输入应用名称、收款回调链接、付款回调链接。选择创建。这里的回调链接必须能通过网络访问的连接。"
+msgstr "2.Open the Bitpie Wallet APP menu, select PIEOPEN Key, select the “+” on upper right, and enter the application name, collection callback URL, and payment callback URL. Choose Create. The callback link here must be accessible via the network."
+
+#: ../../source/registered/index.rst:15
+msgid ""
+"3.创建好 PIEOPEN Key 之后,可查看应用详情。应用名称（app_name）、App Key、Secret "
+"Key、收款回调链接、付款回调链接。"
+msgstr "3.After creating the PIEOPEN Key, you can view the application details. Application name(app_name), App Key, Secret Key, receipt callback link and payment callback link"
+
+#: ../../source/registered/index.rst:18
+msgid "注意：因涉及资产安全，请仔细保管 PIEOPEN Key 信息，避免泄露。"
+msgstr "Note: Due to asset security, please carefully keep the PIEOPEN Key information to avoid leakage."
+

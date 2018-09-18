@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, pieopen
+# This file is distributed under the same license as the Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Docs 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 11:44+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../source/login_api/index.rst:3
+msgid "用户登录 API"
+msgstr "User Log in API"
+
+#: ../../source/login_api/index.rst:5
+msgid "用户登录 API 流程图"
+msgstr "User Log in API Flowchart"
+
+#: ../../source/login_api/index.rst:16
+msgid "获取登录二维码"
+msgstr "Get the login QR code"
+
+#: ../../source/login_api/index.rst:21
+msgid "** 请求 API **:"
+msgstr "** Request API **"
+
+#: ../../source/login_api/index.rst:19
+msgid "``url`` */api/v1/open/third/party/login/qr*"
+msgstr ""
+
+#: ../../source/login_api/index.rst:20 ../../source/login_api/index.rst:71
+msgid "``method`` *POST*"
+msgstr ""
+
+#: ../../source/login_api/index.rst:21 ../../source/login_api/index.rst:46
+#: ../../source/login_api/index.rst:72
+msgid "``content-type`` *application/json*"
+msgstr ""
+
+#: ../../source/login_api/index.rst:24
+msgid "** 参数 **:"
+msgstr "** Parameters **"
+
+#: ../../source/login_api/index.rst:24
+msgid "``appkey`` *(String)* - 参数类型, *(App 标识)*"
+msgstr "``appkey`` *(String)* - type of parameter (appkey)"
+
+#: ../../source/login_api/index.rst:30 ../../source/login_api/index.rst:53
+#: ../../source/login_api/index.rst:81
+msgid "** 返回值 **"
+msgstr "** return value **"
+
+#: ../../source/login_api/index.rst:27
+msgid "``time`` *时间戳*"
+msgstr "``time`` *timestamp*"
+
+#: ../../source/login_api/index.rst:28 ../../source/login_api/index.rst:49
+#: ../../source/login_api/index.rst:52 ../../source/login_api/index.rst:78
+msgid "``hkey`` *QR标识*"
+msgstr "``hkey`` *QR Identification*"
+
+#: ../../source/login_api/index.rst:29
+msgid "``qr_info``"
+msgstr ""
+
+#: ../../source/login_api/index.rst:30
+msgid "``qr_url`` *二维码地址*"
+msgstr "``qr_url`` *QR code url*"
+
+#: ../../source/login_api/index.rst:32 ../../source/login_api/index.rst:55
+#: ../../source/login_api/index.rst:83
+msgid "** 返回值举例 **::"
+msgstr "** Example of return value **::"
+
+#: ../../source/login_api/index.rst:39
+msgid "获取登录二维码状态"
+msgstr "Get the login QR code status"
+
+#: ../../source/login_api/index.rst:46
+msgid "** 请求  API **"
+msgstr "** Request API **"
+
+#: ../../source/login_api/index.rst:44 ../../source/login_api/index.rst:70
+msgid "``url`` */api/v1/open/third/party/login/query/{hkey}*"
+msgstr ""
+
+#: ../../source/login_api/index.rst:45
+msgid "``method`` *GET*"
+msgstr ""
+
+#: ../../source/login_api/index.rst:49 ../../source/login_api/index.rst:75
+msgid "** 参数 **"
+msgstr "** Parameters **"
+
+#: ../../source/login_api/index.rst:53 ../../source/login_api/index.rst:79
+msgid "``status`` *登录状态值 0:初始化 1:扫描 2:登录 3:超时*"
+msgstr "``status``  login status value  0: Initialization  1: Scaning  2: Login  3: Timeout"
+
+#: ../../source/login_api/index.rst:58
+msgid ""
+msgstr ""
+
+#: ../../source/login_api/index.rst:67
+msgid "获取用户信息"
+msgstr "Get user information"
+
+#: ../../source/login_api/index.rst:72
+msgid "** 请求 API **"
+msgstr "** Request API **"
+
+#: ../../source/login_api/index.rst:75
+msgid "``appkey`` *(String)* -参数类型,*(App 标识)*"
+msgstr "``appkey`` *(String)* - type of parameter, * (appkey) *"
+
+#: ../../source/login_api/index.rst:80
+msgid "``token``"
+msgstr ""
+
+#: ../../source/login_api/index.rst:81
+msgid "``bitid``"
+msgstr ""
+
