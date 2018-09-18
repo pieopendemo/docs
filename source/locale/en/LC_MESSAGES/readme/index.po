@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../source/readme/index.rst:42
 msgid "重复支付"
-msgstr ""
+msgstr "Repeated Payment"
 
 #: ../../source/readme/index.rst:43
 msgid "12209"

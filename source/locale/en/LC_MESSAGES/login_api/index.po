@@ -119,7 +119,7 @@ msgstr "** Request API **"
 
 #: ../../source/login_api/index.rst:75
 msgid "``appkey`` *(String)* -参数类型,*(App 标识)*"
-msgstr "``appkey`` *(String)* - type of parameter, * (appkey) *"
+msgstr "``appkey`` *(String)* - type of parameter, *(appkey)*"
 
 #: ../../source/login_api/index.rst:80
 msgid "``token``"

@@ -109,7 +109,7 @@ msgstr "``app_key`` *(String)* -type of parameter"
 
 #: ../../source/bitpie_api/transfer.rst:52
 msgid "``user_id`` *(String)* -参数类型, *用户 bitid*"
-msgstr "``user_id`` *(String)* -type of parameter,*user ID*"
+msgstr "``user_id`` *(String)* -type of parameter, *user ID*"
 
 #: ../../source/bitpie_api/transfer.rst:53
 msgid "``coin_code`` *(String)* -参数类型, *币种代码*"
@@ -141,7 +141,7 @@ msgstr "** Return value **"
 
 #: ../../source/bitpie_api/transfer.rst:62
 msgid "``status`` * 00000 成功,12208 重复*"
-msgstr "``status`` * 00000 success,12208 repeat*"
+msgstr "``status`` *00000 success,12208 repeat* "
 
 #: ../../source/bitpie_api/transfer.rst:63
 msgid "``coin_code`` *币种代码*"
